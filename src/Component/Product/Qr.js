@@ -27,7 +27,8 @@ function Qr(props) {
   return (
     <div>
       <div className="row justify-content-center">
-      <QRCode id="qr-gen" value={"http://google.com/"+props.pid+"/"+cid} qrStyle='squares' size={300} logoImage={logo} logoWidth={50}  />
+      <QRCode id="qr-gen" value={"https://tiny-kleicha-544dc0.netlify.app/agency"} qrStyle='squares' size={300} logoImage={logo} logoWidth={50}  />
+      {/* <QRCode id="qr-gen" value={"http://google.com/"+props.pid+"/"+cid} qrStyle='squares' size={300} logoImage={logo} logoWidth={50}  /> */}
       <button className=" mt-5 btn btn-success" onClick={Dowload} >โหลด QRCode</button>
       </div>
    
