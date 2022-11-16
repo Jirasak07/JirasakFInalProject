@@ -14,10 +14,6 @@ function CheckProduct() {
           field: "pid",
         },
         {
-          label: "หมายเลขครุภัณฑ์",
-          field: "pid2",
-        },
-        {
           label: "รายการ",
           field: "pname",
         },
